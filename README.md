@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Hi there
-=======
 🧠 Nexus-Flow
 Collaborative Visual Backend Orchestrator (DAG-Based Workflow Engine)
 
@@ -257,4 +254,3 @@ Please open an issue first for major changes.
 📜 License
 
 MIT
->>>>>>> caa2cd7 (readme-updated)
