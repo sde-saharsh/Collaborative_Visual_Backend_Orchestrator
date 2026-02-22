@@ -1,0 +1,13 @@
+{
+    "name": "shared",
+    "version": "1.0.0",
+    "type": "module",
+    "private": true,
+    "dependencies": {
+        "bullmq": "^5.70.0",
+        "ioredis": "^5.9.3"
+    },
+    "devDependencies": {
+        "@types/node": "^25.3.0"
+    }
+}

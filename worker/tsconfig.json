@@ -12,7 +12,6 @@
     },
     "include": [
         "src/**/*",
-        "server.ts",
         "../shared/**/*"
     ],
     "exclude": [
