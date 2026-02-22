@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import graphRoutes from './src/routes/graphRoutes.js';
@@ -14,7 +14,7 @@ app.use(cors());
 app.use('/api/graph', graphRoutes);
 
 
-app.get('/', (req, res) => {
+app.get('/', (req: Request, res: Response) => {
     res.send("Server is running...");
 });
 
